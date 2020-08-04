@@ -15,5 +15,5 @@ services:
       - 0.0.0.0:21:21
       - 21100-21110:21100-21110
     volumes:
-      - ./home:/home/vsftpd
+      - ./home:/home/vsftpd/user
       - ./logs:/var/log/vsftpd
